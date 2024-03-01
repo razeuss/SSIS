@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addDialog</class>
+ <widget class="QDialog" name="addDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Student Information</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-2</x>
+     <y>-5</y>
+     <width>511</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resources.qrc">:/Pictures/adobe photoshop/backgroundd.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="doneBtn">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>450</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DONE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>200</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string> NAME</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="genderBox">
+   <property name="geometry">
+    <rect>
+     <x>326</x>
+     <y>200</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string> SEX</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>MALE</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>FEMALE</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="course">
+   <property name="geometry">
+    <rect>
+     <x>101</x>
+     <y>250</y>
+     <width>297</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string> PROGRAM</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="idnum">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>300</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string> ID NUMBER</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="yrlvlbox">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>300</y>
+     <width>117</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string> YEAR LEVEL</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>1ST YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2ND YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3RD YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4TH YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5TH YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6TH YEAR</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>40</y>
+     <width>135</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resources.qrc">:/Downloads/profile.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

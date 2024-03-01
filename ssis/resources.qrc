@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../../Pictures/adobe photoshop/groupBox.png</file>
+        <file>../../../Pictures/adobe photoshop/backgroundd.png</file>
+        <file>../../../Pictures/adobe photoshop/space gray.png</file>
+        <file>../../../Pictures/adobe photoshop/attachid.png</file>
+        <file>../../../../Downloads/profile.png</file>
+        <file>../../../Pictures/adobe photoshop/bgprof.png</file>
+        <file>../../../../Downloads/delete.png</file>
+        <file>../../../../Downloads/pngwing.com (6).png</file>
+        <file>../../../../Downloads/more.png</file>
+    </qresource>
+</RCC>
